@@ -31,6 +31,8 @@ public class Calculator {
             default:
                 System.out.println("Некорректная операция!");
         }
+
+        scanner.close();
     }
 
     public static double getNumber(){
